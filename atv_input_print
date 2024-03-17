@@ -1,0 +1,172 @@
+#1. Calcule a média de quatro números inteiros dados.
+#a. Solicita para o usuário informar 4 números
+#b. Realiza a soma dos 4 números e divide-os por 4
+#c. Retorna para o usuário o resultado do calculo
+
+usuario1=int(input("qual o numero??"))
+usuario2=int(input("qual o numero?"))
+usuario3=int(input("qual o numero?"))
+usuario4=int(input("qual o numero?"))
+
+media= (usuario1 + usuario2 + usuario3 + usuario4)/4
+print("resultado: {} ".format(media))
+print(f"o resutado do calculo é{media}")
+
+
+#2. Leia uma temperatura dada na escala Celsius (C) e imprima o
+# equivalente em Fahrenheit (F). (Fórmula de conversão: F = 9/5 * C + 32)
+# a. Solicitar ao usuário informar a temperatura em graus Celsius
+# b. Aplica o valor na formula F = 9/5 * C + 32
+# c. Retorna para o usuário a temperatura em graus Fahrenheit
+
+C=float(input("qual a temperatura C:"))
+F=(9/5)* C + 32
+print(f"a temperatura é:{F}")
+
+#3. Leia uma quantidade de chuva dada em polegadas e imprima o
+# equivalente em milímetros (25,4 mm = 1 polegada).
+# a. Solicita para o usuário digitar a quantidade de chuva em
+# polegadas
+# b. Com valor informado realiza o seguinte cálculo: MM = X * 25,4
+# c. Retorna para o usuário a quantidade em milímetros.
+
+x=float(input("qual a quantidade de chuva"))
+MM= x * 25,4
+print("resultado:{} a quantidade em milimitro é:{}".format(MM,x))
+
+#4. Calcule o quadrado de um número, ou seja, o produto de um número por si mesmo.
+# a. Solicita ao usuário que digite um número;
+# b. Multiplica o número por ele mesmo, N = X * X;
+# c. Retorna para o usuário o resultado
+
+Usuario=int(input("digite um numero"))
+
+multiplicação=Usuario * Usuario
+print("resultado: {}".format(multiplicação,Usuario))
+
+#5. O custo ao consumidor de um carro novo é a soma do custo de fábrica
+# com a porcentagem do distribuidor e dos impostos, ambos aplicados ao
+# custo de fábrica. Supondo que a porcentagem do distribuidor seja de
+# 12% e a dos impostos de 45%, prepare um algoritmo para ler o custo de fábrica do carro e imprimir o custo ao
+# consumidor.
+# a. Solicita ao usuário o custo de fábrica do carro.
+# b. Armazena em uma variável o valor da fórmula do distribuidor, que
+# é X = CUSTO * 0,12;
+# c. Armazena em outra variável o valor da fórmula do imposto, que é
+# I = CUSTO * 0,45.
+# d. Calcular o valor final do carro sendo V = CUSTO + X + I
+# e. VALOR = (CUSTO * 0,12) + (CUSTO * 0,45)
+# f. VALOR = CUSTO * (0,12 + 0,45)
+# g. Retorna para o usuário o valor final do carro
+
+Custo=float(input("qual o custo da fabrica"))
+x=0,12
+I=0,45
+
+Valor= (Custo * 0,12)+(Custo * 0,45)
+multiplicação1= Custo * 0,12
+multiplicação= Custo *0,45
+soma= Custo + 0,12 + 0,45
+print("valor da soma:{}".format(soma,x,I))
+print("multiplicação1: {} multiplicação: {}".format(multiplicação1,multiplicação))
+print("Resultado:{}".format(Valor,Custo,x,I))
+print(f"o valor da soma é {soma} ")
+
+
+#6. O cardápio de uma lanchonete é dado abaixo. Prepare um algoritmo que
+# leia a quantidade de cada item que você consumiu e calcule a conta
+# final.
+# a. Hambúrguer................. R$ 3,00
+# b. Cheeseburger.............. R$ 2,50
+# c. Fritas............................ R$ 2,50
+# d. Refrigerante ................. R$ 1,00
+# e. Milkshake..................... R$ 3,00
+# i. Solicita ao usuário a quantidade de Hambúrguer
+# ii. Solicita ao usuário a quantidade de Cheeseburger
+# iii. Solicita ao usuário a quantidade de Fritas
+# iv. Solicita ao usuário a quantidade de Refrigerante
+# v. Solicita ao usuário a quantidade de Milkshake
+# vi. Multiplica a quantidade de cada item pelo seu valor
+# vii. T = (QH * 3,00) + (QC * 2,50) + (QF * 2,50) + (QR * 1,00) +
+# (QM * 3,00)
+# viii. Realiza a soma de total de cada item
+# ix. Exibe ao usuário o valor total da conta
+
+QH=int(input("quantidade de hanburguer"))
+QC=int(input("quantidade de cheeseburguer"))
+QF=int(input("quantidade de batata fritas"))
+QR=int(input("quntidade de refrigerante"))
+QM=int(input("quantidade de milhshake"))
+valores=(QH * 3,00) + (QC * 2,50) + (QF * 2,50) + (QR * 1,00)+ (QM * 3,00)
+
+multiplicação=(QH * 3,00),(QC * 2,50),(QF * 2,50),(QR * 1,00),(QM * 3,00)
+print("multiplicação: {}".format(valores,QH,QC,QM,QR,QF))
+soma=QH + QF + QM + QR + QC
+print("soma total da conta: {}".format(soma))
+
+#7. Uma companhia de carros paga a seus empregados um salário de R$
+# 500,00 por mês mais uma comissão de R$ 50,00 para cada carro
+# vendido e mais 5% do valor da venda. Elabore um algoritmo para
+# calcular e imprimir o salário do vendedor num dado mês recebendo
+# como dados de entrada o nome do vendedor, o número de carros vendidos e o valor total das vendas.
+# a. Solicite ao usuário informar o nome do vendedor, o numero de
+# carros vendidos e o valor total das vendas.
+# b. Em cima dos dados informados realize os seguintes cálculos,
+# c. VLR_CARROS = QTD * 50,00
+# d. COMISSAO = VLR_TOTAL * 0,05
+# e. SALARIO = VLR_CARROS + COMISSAO + 500
+# f. Retorna para o usuário o valor do salário calculado
+
+usuario=input("como é o nome do vendedor")
+QTD=int(input("quantidade de vendas"))
+Valor_carros=int(input("valor do carro"))
+
+VLR_carros= QTD * 50,00
+print("resultado: {}".format(VLR_carros,QTD))
+
+VLR_Total=int(input("qual o valor total"))
+comissao= VLR_Total * 0,5
+print("resultado: {}".format(comissao,VLR_Total))
+
+comissao=int(input("qual o valor da comissão"))
+salario= Valor_carros + comissao + 500
+print("resultado final do salario: {}".format(salario,Valor_carros,comissao))
+
+#8. Calcule a média de um aluno na disciplina de ED. Para isso solicite o
+# nome do aluno, a nota da prova e a nota qualitativa. Sabe-se que a nota
+# da prova tem peso 2 e a nota qualitativa peso 1. Mostre a média como resultado.
+#a. Solicite ao usuário informar o nome do aluno, nota da prova e a nota qualitativa.
+#b. Aplique a seguinte formula MEDIA = (NQ + (NP * 2)) / 3
+#c. Retorne ao usuário qual é a sua média final.
+
+Nome=input("nome do aluno")
+NP=float(input("nota da prova"))
+NQ=float(input("nota qualitativa"))
+
+media=(NQ + (NP * 2))/3
+print("resultado: {}".format(media,NQ,NP))
+
+#. Sabendo que a média de aprovação é 7, e a formula para cálculo da
+# média consiste em a primeira avaliação com peso 1 e a segunda
+# avaliação com peso 2, sendo divido por 3, realize o cálculo de quanto
+# deve ser a nota da segunda avaliação para que o resultado seja a
+# aprovação. Elabore a fórmula para o cálculo e a representação do algoritmo para o mesmo.
+#a. MEDIA = (N1 + (N2 * 2)) / 3
+#b. MEDIA * 3 = (N1 + (N2 * 2))
+#c. (MEDIA * 3) – N1 = N2 * 2
+#d. ((MEDIA * 3) – N1) / 2 = N2
+#e. Solicite para o usuário informar qual é nota 1 do aluno.
+#f. Sabendo que a média é 7, aplique os valores na fórmula:
+#((MEDIA * 3) – N1) / 2 = N2
+#g. Retorne ao usuário a valor que ele deve ter na nota 2 para que seja aprovado
+
+nota1= float(input('primeira nota:'))
+nota2=float(input('segunda nota:'))
+media= (nota1 + nota2) / 3
+print('notas{} e {}, a media do aluno é {}'.format(nota1,nota2,media))
+if 7 > media > 5:
+    print("esta de recuperação")
+elif media < 5:
+    print("esta reprovado")
+elif media >=7:
+    print("esta aprovado")
