@@ -1,0 +1,16 @@
+#32. Escreva um programa de ajuda para vendedor. A partir de um valor total lido mostre:
+# a. O total a pagar com desconto de 10%;
+# b. O valor de cada parcela, no parcelamento de 3x sem juros;
+# c. A comissão do vendedor, caso de a venda ser a vista (5% sobre o valor com  desconto);
+# d. A comissão do vendedor, caso de a venda ser parcelada (5% sobre o valor
+
+total_a_pagar=int(input("qual o valor a pagar"))
+desconto=total_a_pagar -(total_a_pagar * 10/100)
+print("o resultado do valor: {}".format(desconto,total_a_pagar))
+
+valor_parcelas=int(input("qual os valores da parcelas"))
+parcelas=valor_parcelas * valor_parcelas * valor_parcelas
+print("o valor das parcelas é: {}".format(parcelas,valor_parcelas))
+
+Comissão_vendedor= valor_parcelas-(valor_parcelas * 5/100)
+print("o valor da parcela é: {}".format(Comissão_vendedor,valor_parcelas))
