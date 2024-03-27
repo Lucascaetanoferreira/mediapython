@@ -1,0 +1,11 @@
+#15. Uma empresa de piscinas precisa saber qual o volume em que cada piscina terá em
+# M³, sendo que o usuário irá informar a largura, comprimento e profundidade.
+
+usuario1=int(input("informe a largura"))
+usuario2=int(input("informe o comprimento"))
+Usuario3=int(input("informe a largura"))
+
+M3= usuario1 * usuario2 * Usuario3
+print("o volume sera: {}".format(M3,usuario1,usuario2,Usuario3))
+
+
