@@ -1,0 +1,16 @@
+#43. O cardápio de uma lanchonete é dado abaixo. Prepare um algoritmo que leia a
+# quantidade de cada item que você consumiu e calcule a conta final.
+# a. Hambúrguer................. R$ 3,00
+# b. Cheeseburger.............. R$ 2,50
+# c. Fritas............................ R$ 2,50
+# d. Refrigerante ................. R$ 1,00
+# e. Milkshake..................... R$ 3,00
+
+
+QH=int(input("quantidade de hanburguer"))
+QC=int(input("quantidade de cheeseburguer"))
+QF=int(input("quantidade de batata fritas"))
+QR=int(input("quntidade de refrigerante"))
+QM=int(input("quantidade de milhshake"))
+valores=(QH * 3,00) + (QC * 2,50) + (QF * 2,50) + (QR * 1,00)+ (QM * 3,00)
+print("o valor total é: {}".format(valores,QH,QC,QF,QR,QM))
