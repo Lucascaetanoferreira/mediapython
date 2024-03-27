@@ -1,0 +1,6 @@
+#27. Leia o salário de um funcionário. Calcule e imprima o valor do novo salário, sabendo
+# que ele recebeu um monstruoso aumento de 1.77%.
+
+salario=int(input("O salario do funcionario"))
+novo= salario-(salario * 1.77/100)
+print("o valor novo é: {}".format(novo,salario))
