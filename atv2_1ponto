@@ -1,0 +1,4 @@
+##2. Faça um programa que leia um número real e o imprima.
+
+Numero_reais=int(input("qual o numero real??"))
+print("O numero real é: {}".format(Numero_reais))
