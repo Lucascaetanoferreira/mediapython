@@ -1,0 +1,6 @@
+#26. Faça um programa que leia o valor de um produto e imprima o valor com desconto,
+# tendo em vista que o desconto foi de 12%.
+
+produto=int(input("qual o valor do produto"))
+desconto=produto + (produto * 12/100)
+print("o desconto do produto é: {}".format(desconto,produto))
