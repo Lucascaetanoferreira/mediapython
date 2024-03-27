@@ -1,0 +1,6 @@
+#34. Faça um programa para converter uma letra maiúscula em letra minúscula. Use a
+# tabela ASCII para resolver o problema
+
+full_nome=input("didite seu nome")
+print("meu nome é: {}".format(full_nome.lower()))
+print("meu nome é: {}".format(full_nome.upper()))
