@@ -1,0 +1,4 @@
+##1. Faça um programa que leia um número inteiro e o imprima.
+
+Numero=int(input("qual o numero??"))
+print("Resultado do numero inteiro: {}".format(Numero))
