@@ -1,0 +1,13 @@
+#35. Faça um programa que leia um número inteiro positivo de três dígitos (de 100 a 999).
+# Gere outro numero formado pelos dígitos invertidos do número lido. Exemplo:
+
+Numero= int(input("digite o numero"))
+u= Numero // 1 % 10
+d= Numero // 10 % 10
+c= Numero // 100 % 10
+M= Numero // 1000 % 10
+print("os numeros são: {}".format(Numero))
+print("Unidade: {}".format(u))
+print("dezena: {}".format(d))
+print("centena: {}".format(c))
+print("milhar: {}".format(M))
