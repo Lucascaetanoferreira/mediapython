@@ -1,0 +1,9 @@
+#21. Leia um número inteiro e imprima a soma do sucessor de seu triplo com o antecessor
+# de seu dobro.
+
+Numero=int(input("digite um numero"))
+Antecessor= Numero - 1
+sucessor=Numero + 2
+print("digite o antecessor: {} o antecessor é: {} o sucessor: {}".format(Numero,Antecessor,sucessor))
+calcular=(Antecessor * 2)+(sucessor *3)
+print("A soma é:{}".format(calcular,Antecessor,sucessor))
