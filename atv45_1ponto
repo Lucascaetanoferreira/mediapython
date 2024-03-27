@@ -1,0 +1,8 @@
+#45.Calcule a média de um aluno na disciplina de ED. Para isso solicite o nome do aluno, a
+# nota da prova e a nota qualitativa. Sabe-se que a nota da prova tem peso 2 e a nota
+# qualitativa peso 1. Mostre a média como resultado.
+
+nota1= float(input('primeira nota:'))
+nota2=float(input('segunda nota:'))
+media= (nota1 + nota2) / 3
+print('notas{} e {}, a media do aluno é {}'.format(nota1,nota2,media))
