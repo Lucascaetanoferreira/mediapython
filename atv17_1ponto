@@ -1,0 +1,10 @@
+#17. Leia quatro números e calcule a média aritmética e imprima o resultado
+
+usuario1=int(input("digite um numero"))
+usuario2=int(input("digite um numero"))
+usuario3=int(input("digite um numero"))
+usuario4=int(input("digite um numero"))
+
+media= (usuario1 + usuario2 + usuario3 + usuario4)/2
+print("o resultado da media aritmetica é: {}".format(usuario1,usuario2,usuario3,usuario4,media))
+
