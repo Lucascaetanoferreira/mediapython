@@ -1,0 +1,6 @@
+#12.Leia uma distância em milhas e apresente-a convertida em quilômetros. A fórmula de
+# conversão é: 𝐾 = 1.61 ∗ 𝑀, sendo K a distância em quilômetros e M em milhas
+
+M=int(input("qual é o quilometro"))
+K = 1.61 * M
+print("a distancia em milhas é: {}".format(K,M))
