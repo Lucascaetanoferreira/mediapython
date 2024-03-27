@@ -1,0 +1,18 @@
+##42. O custo ao consumidor de um carro novo é a soma do custo de fábrica com a
+# porcentagem do distribuidor e dos impostos, ambos aplicados ao custo de fábrica.
+# Supondo que a porcentagem do distribuidor seja de 12% e a dos impostos de 45%,
+# prepare um algoritmo para ler o custo de fábrica do carro e imprimir o custo ao
+# consumidor.
+
+
+Custo=float(input("qual o custo da fabrica"))
+x=0,12
+I=0,45
+Valor= (Custo * 0,12)+(Custo * 0,45)
+multiplicação1= Custo * 0,12
+multiplicação= Custo *0,45
+soma= Custo + 0,12 + 0,45
+print("valor da soma:{}".format(soma,x,I))
+print("multiplicação1: {} multiplicação: {}".format(multiplicação1,multiplicação))
+print("Resultado:{}".format(Valor,Custo,x,I))
+print(f"o valor da soma é {soma} ")
