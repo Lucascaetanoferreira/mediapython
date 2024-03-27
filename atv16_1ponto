@@ -1,0 +1,14 @@
+#16. Faça a leitura de três valores e apresente como resultado a soma dos quadrados dos três números lidos.
+
+valor1=(int(input("digite um numero")))
+valor2=(int(input("digite um numero")))
+valor3=(int(input("digite um numero")))
+
+Multiplicação_3valores= valor1 + valor1
+Multiplicação_3valores= valor2 + valor2
+Multiplicação_3valores= valor3 + valor3
+
+print("valor1: {} valor2: {} valor3: {}".format(Multiplicação_3valores,valor1,valor2,valor3))
+
+soma_3valores= valor1 + valor2 + valor3
+print("valor tatal: {}".format(soma_3valores,valor1,valor2,valor3))
