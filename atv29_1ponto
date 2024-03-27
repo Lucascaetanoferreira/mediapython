@@ -1,0 +1,11 @@
+#29. Uma empresa contrata um encanador a R$ 30,00 por dia. Faça um programa que
+# solicite o número de dias trabalhados pelo encanador e imprima a quantia líquida que
+# deverá ser paga, sabendo-se que são descontados 11% de previdência social, e após
+# isso 8% para imposto de renda.
+
+encanador=int(input("qual o valor do trabalho do encanador"))
+desconto=encanador - (encanador * 11/100)
+print("o valor de trabalho é: {}".format(desconto,encanador))
+
+imposto_de_renda=encanador-(encanador *8/100)
+print("o valor do imposto de renda é: {}".format(imposto_de_renda,encanador))
