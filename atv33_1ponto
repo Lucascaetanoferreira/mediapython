@@ -1,0 +1,8 @@
+#33. Receba a altura do degrau de uma escada e a altura que o usuário deseja alcançar
+# subindo a escada. Calcule e mostre quantos degraus o usuário deverá subir para
+# atingir seu objetivo.
+
+usuario=int(input("qual a altura do usuario"))
+escada=int(input("qual degrau da escada"))
+soma= usuario + escada
+print("o valor para atingir seu objetivo:{}".format(soma,usuario,escada))
