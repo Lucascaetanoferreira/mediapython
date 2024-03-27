@@ -1,0 +1,8 @@
+#18. Sabendo que a formula para aprovação é: 𝐺1+(𝐺2∗2)/3≥ 7.0, desenvolva uma aplicação
+# que leia as notas de G1 e G2 e apresente a média do semestre.
+
+G1=int(input("qual é a nota"))
+G2=int(input("qual é a nota"))
+
+calcular_nota=(G1 +(G2 * 2)/3 >=7)
+print("a media do semestre é: {}".format(G1,G2,calcular_nota))
