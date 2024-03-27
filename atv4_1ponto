@@ -1,0 +1,5 @@
+#4. Leia um número real e imprima o resultado do quadrado desse número
+
+Numero_real2=int(input("digite um numero real"))
+Multiplicação_numeroReal= Numero_real2 * Numero_real2
+print("resultado desse numero: {}".format(Multiplicação_numeroReal,Numero_real2))
