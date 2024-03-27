@@ -1,0 +1,11 @@
+
+#40.Três amigos jogaram na loteria. Caso eles ganhem, o prêmio deve ser repartido
+# proporcionalmente ao valor que cada um deu para a realização da aposta. Faça um
+# programa que leia quanto cada apostador investiu, o valor do prêmio, e imprima
+# quanto cada um ganharia do prêmio com base no valor investido.
+
+amigo1=int(input("qual o valor que eu ganhei na loteria"))
+amigo2=int(input("qual o valor que eu ganhei na loteria"))
+amigo3=int(input("qual o valor que eu ganhei na loteria"))
+soma_investimento= amigo1 + amigo2 + amigo3
+print("o valor investido é: {}".format(soma_investimento,amigo1,amigo2,amigo3))
