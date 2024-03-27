@@ -1,0 +1,7 @@
+#19. Leia um valor real e a cotação do dólar. Em seguida, imprima o valor correspondente em dólares.
+
+Real=float(input("quantos dinheiro eu tenho na cotação"))
+Dolar=Real / 4,97
+print("o valor em dolares é: {}".format(Dolar,Real))
+
+
