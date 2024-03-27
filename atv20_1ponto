@@ -1,0 +1,5 @@
+#20. Leia um número inteiro e imprima o seu antecessor e o seu sucessor
+
+Numero=int(input("digite um numero"))
+antecessor= Numero - 1
+print("digite o antecessor: {} o antecessor é: {}".format(Numero,antecessor))
