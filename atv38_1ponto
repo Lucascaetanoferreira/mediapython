@@ -1,0 +1,14 @@
+#38. Faça um programa que leia o horário (hora, minuto e segundo) do início e a duração
+# em segundo, de uma experiência atômica bélica. O programa deve resultar com o
+# novo horário (hora, minuto e segundo) do término da mesma.
+
+H=int(input("qual a hora"))
+hora= H // 3600
+print("a hora é: {}".format(hora,H))
+minutos=int(input("qual são os minutos"))
+hora= minutos // 3600
+print("os minutos são: {}".format(hora,minutos))
+segundos=int(input("qual os segundos"))
+hora= segundos // 3600
+novo= H + segundos + minutos
+print("o novo horario é: {}".format(novo,H,segundos,minutos))
