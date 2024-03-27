@@ -1,0 +1,10 @@
+#31. Receba o salário-base de um funcionário. Calcule e imprima o salário a receber,
+# sabendo-se que esse funcionário em uma gratificação de 5% sobre o salário-base.
+# Além disso, ele paga 7% de imposto sobre o salário-base
+
+funcionario=int(input("qual o salario a receber"))
+gratificação= funcionario -(funcionario * 5/100)
+print("o resultado:{}".format(gratificação,funcionario))
+
+imposto_de_renda=funcionario-(funcionario *7/100)
+print("o valor do imposto de renda é: {}".format(imposto_de_renda,funcionario))
