@@ -1,0 +1,6 @@
+#39. Implemente um programa que calculo o ano de nascimento de uma pessoa a partir de
+# sua idade e do ano atual.
+
+pessoa=int(input("qual o ano que essa pessoa nasceu"))
+ano_nascimento= pessoa - 2024
+print("a idade dessa pesso sera: {}".format(ano_nascimento,pessoa))
