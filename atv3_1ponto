@@ -1,0 +1,8 @@
+#3. Peça ao usuário para digitar três valores inteiros e imprima a soma deles
+
+Usuario1=int(input("Usuario digite um numero"))
+usuario2=int(input("Usuario digite um numero"))
+usuario3=int(input("Usuario digite um numero"))
+
+soma_Usario= Usuario1 + usuario2 + usuario3
+print("a soma dos tres usuario é: {}".format(soma_Usario,Usuario1,usuario2,usuario3))
